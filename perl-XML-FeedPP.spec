@@ -5,7 +5,7 @@ Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
 Release:    %mkrel 1
 
-Summary:    No summary found
+Summary:    Parse/write/merge/edit RSS/RDF/Atom syndication feeds
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
