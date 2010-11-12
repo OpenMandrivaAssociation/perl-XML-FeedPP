@@ -1,9 +1,9 @@
 %define upstream_name    XML-FeedPP
-%define upstream_version 0.41
+%define upstream_version 0.42
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Parse/write/merge/edit RSS/RDF/Atom syndication feeds
 License:    GPL+ or Artistic
