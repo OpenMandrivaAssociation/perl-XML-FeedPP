@@ -1,15 +1,15 @@
 %define upstream_name    XML-FeedPP
-%define upstream_version 0.43
+%define upstream_version 0.95
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Parse/write/merge/edit RSS/RDF/Atom syndication feeds
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/kawanet/XML-FeedPP
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MARKOV/XML-FeedPP-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
