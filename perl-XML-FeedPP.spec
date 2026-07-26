@@ -1,15 +1,13 @@
 %define upstream_name    XML-FeedPP
-%define upstream_version 0.95
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.95
+Release:	2
 
 Summary:	Parse/write/merge/edit RSS/RDF/Atom syndication feeds
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/kawanet/XML-FeedPP
-Source0:	https://cpan.metacpan.org/authors/id/M/MA/MARKOV/XML-FeedPP-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MARKOV/XML-FeedPP-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -25,7 +23,7 @@ is a pure Perl implementation and does not require any other module except
 for XML::TreePP.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
